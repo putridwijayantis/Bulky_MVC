@@ -9,5 +9,13 @@
       <jdbc-url>Server=localhost;Database=Bulky;User Id=SA;Password=12345OHdf%e;TrustServerCertificate=True;</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Bulky_Razor@localhost" uuid="bb9c7941-2a75-463a-bf99-b74a62a3702c">
+      <driver-ref>sqlserver.jb</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
+      <jdbc-url>Server=localhost;Database=Bulky_Razor;User Id=SA;Password=12345OHdf%e;TrustServerCertificate=True</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
