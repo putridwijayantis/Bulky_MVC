@@ -1,7 +1,8 @@
-using BulkyWeb.Models;
+using Bulky.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
-namespace BulkyWeb.Data;
+namespace Bulky.DataAccess.Data;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {
